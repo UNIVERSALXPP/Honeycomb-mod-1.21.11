@@ -19,7 +19,7 @@ public class PurpleHoneyMod implements ModInitializer {
 
     public static final Block HONEYCOMB_STAIRS = new StairsBlock(
             net.minecraft.block.Blocks.HONEYCOMB_BLOCK.getDefaultState(),
-            FabricBlockSettings.copyOf(net.minecraft.block.Blocks.HONEYCOMB_BLOCK)
+           AbstractBlock.Settings.copy
                     .sounds(BlockSoundGroup.WOOL)
     );
 
